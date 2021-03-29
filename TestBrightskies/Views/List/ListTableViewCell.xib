@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ListTableViewCell" rowHeight="140" id="Lg0-Ma-UdY" customClass="ListTableViewCell" customModule="TestBrightskies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lg0-Ma-UdY" id="KD6-CC-Yyd">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D1W-gU-Z9O">
+                        <rect key="frame" x="8" y="12" width="112" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="7Xe-Qs-Nu7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Crispy Fish Goujons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KF-5U-QcB">
+                        <rect key="frame" x="130" y="12" width="219" height="24"/>
+                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="20"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="Calories:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFn-Fu-Y6a">
+                        <rect key="frame" x="130" y="48" width="61.5" height="19"/>
+                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="16"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="1000Kcal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xv0-zb-PN2">
+                        <rect key="frame" x="193.5" y="49" width="59" height="17"/>
+                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fats:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibc-Od-JNB">
+                        <rect key="frame" x="270" y="48" width="33" height="19"/>
+                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="16"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="1000g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUU-g4-ewp">
+                        <rect key="frame" x="305" y="49" width="40" height="17"/>
+                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Sweet Potato Wedges and Minted Snap Peas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30g-E8-prQ">
+                        <rect key="frame" x="130" y="78" width="235" height="56"/>
+                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="12"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xv0-zb-PN2" firstAttribute="centerY" secondItem="JFn-Fu-Y6a" secondAttribute="centerY" id="3Fk-zG-V3f"/>
+                    <constraint firstItem="KUU-g4-ewp" firstAttribute="leading" secondItem="ibc-Od-JNB" secondAttribute="trailing" constant="2" id="B2v-du-q4b"/>
+                    <constraint firstItem="JFn-Fu-Y6a" firstAttribute="top" secondItem="1KF-5U-QcB" secondAttribute="bottom" constant="12" id="Flv-i6-8P4"/>
+                    <constraint firstItem="Xv0-zb-PN2" firstAttribute="leading" secondItem="JFn-Fu-Y6a" secondAttribute="trailing" constant="2" id="MDJ-Dz-uNV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="KUU-g4-ewp" secondAttribute="trailing" constant="8" id="NIc-Hl-a7q"/>
+                    <constraint firstItem="30g-E8-prQ" firstAttribute="leading" secondItem="JFn-Fu-Y6a" secondAttribute="leading" id="OSB-Vr-FoS"/>
+                    <constraint firstItem="JFn-Fu-Y6a" firstAttribute="leading" secondItem="1KF-5U-QcB" secondAttribute="leading" id="UH0-Oj-eed"/>
+                    <constraint firstItem="D1W-gU-Z9O" firstAttribute="width" secondItem="KD6-CC-Yyd" secondAttribute="width" multiplier="0.3" id="W5P-0g-PRi"/>
+                    <constraint firstItem="30g-E8-prQ" firstAttribute="top" secondItem="Xv0-zb-PN2" secondAttribute="bottom" constant="12" id="Xqy-i2-3YY"/>
+                    <constraint firstItem="1KF-5U-QcB" firstAttribute="leading" secondItem="D1W-gU-Z9O" secondAttribute="trailing" constant="10" id="YPO-99-T0g"/>
+                    <constraint firstItem="D1W-gU-Z9O" firstAttribute="leading" secondItem="KD6-CC-Yyd" secondAttribute="leadingMargin" constant="-12" id="Zys-hC-r0d"/>
+                    <constraint firstAttribute="bottom" secondItem="30g-E8-prQ" secondAttribute="bottom" constant="6" id="d5a-hA-dZf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1KF-5U-QcB" secondAttribute="trailing" constant="4" id="ezF-J8-EJq"/>
+                    <constraint firstItem="1KF-5U-QcB" firstAttribute="top" secondItem="D1W-gU-Z9O" secondAttribute="top" id="lqa-Un-eIn"/>
+                    <constraint firstItem="D1W-gU-Z9O" firstAttribute="top" secondItem="KD6-CC-Yyd" secondAttribute="top" constant="12" id="mH2-SM-6DR"/>
+                    <constraint firstItem="ibc-Od-JNB" firstAttribute="centerY" secondItem="Xv0-zb-PN2" secondAttribute="centerY" id="tdg-q7-t9V"/>
+                    <constraint firstItem="KUU-g4-ewp" firstAttribute="centerY" secondItem="ibc-Od-JNB" secondAttribute="centerY" id="uj2-AL-RTs"/>
+                    <constraint firstAttribute="trailing" secondItem="30g-E8-prQ" secondAttribute="trailing" constant="8" id="vIQ-dG-F14"/>
+                </constraints>
+            </tableViewCellContentView>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="20"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="recipeCal" destination="Xv0-zb-PN2" id="jcx-ii-iHx"/>
+                <outlet property="recipeDisc" destination="30g-E8-prQ" id="6Ml-bU-p4P"/>
+                <outlet property="recipeFats" destination="KUU-g4-ewp" id="04I-ax-7wW"/>
+                <outlet property="recipeImg" destination="D1W-gU-Z9O" id="gs1-zV-cJM"/>
+                <outlet property="recipeName" destination="1KF-5U-QcB" id="Pf5-n6-yJV"/>
+            </connections>
+            <point key="canvasLocation" x="-425" y="-72"/>
+        </tableViewCell>
+    </objects>
+</document>
