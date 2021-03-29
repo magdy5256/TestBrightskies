@@ -1,6 +1,0 @@
-framework module Pods_TestBrightskiesTests {
-  umbrella header "Pods-TestBrightskiesTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
