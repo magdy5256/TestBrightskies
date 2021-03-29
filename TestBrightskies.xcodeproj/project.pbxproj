@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5BBABAFC715358B7F68598D6 /* Pods_TestBrightskies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A982FCF93632D070B6EBDD /* Pods_TestBrightskies.framework */; };
-		85DDB1456436413F0BD82791 /* Pods_TestBrightskies_TestBrightskiesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6746CA1D5A6983E37E80A761 /* Pods_TestBrightskies_TestBrightskiesUITests.framework */; };
 		F60F18D6260BFE6A0009E8C7 /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60F18C4260BFE690009E8C7 /* Lato-HeavyItalic.ttf */; };
 		F60F18D7260BFE6A0009E8C7 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60F18C5260BFE690009E8C7 /* Lato-Italic.ttf */; };
 		F60F18D8260BFE6A0009E8C7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F60F18C6260BFE690009E8C7 /* Lato-LightItalic.ttf */; };
@@ -43,7 +42,6 @@
 		F63992D12610B46300C2DA46 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63992D02610B46300C2DA46 /* ListTableViewCell.swift */; };
 		F63992D62610BDE400C2DA46 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63992D52610BDE400C2DA46 /* ListTableViewCell.xib */; };
 		F639AC792611E8BA00396C86 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639AC782611E8BA00396C86 /* RecipeDetailViewController.swift */; };
-		F6EF3B2FCF26A1D9193FC821 /* Pods_TestBrightskiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974499156362F17E81616C78 /* Pods_TestBrightskiesTests.framework */; };
 		F6F435F2260BB75000C2DF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F435F1260BB75000C2DF65 /* AppDelegate.swift */; };
 		F6F435F4260BB75000C2DF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F435F3260BB75000C2DF65 /* SceneDelegate.swift */; };
 		F6F435F6260BB75000C2DF65 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F435F5260BB75000C2DF65 /* ListViewController.swift */; };
@@ -80,15 +78,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D6B1AE13460A3823348837 /* Pods-TestBrightskiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBrightskiesTests.debug.xcconfig"; path = "Target Support Files/Pods-TestBrightskiesTests/Pods-TestBrightskiesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		09A982FCF93632D070B6EBDD /* Pods_TestBrightskies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBrightskies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B80254C42B0405874F19D59 /* Pods-TestBrightskies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBrightskies.release.xcconfig"; path = "Target Support Files/Pods-TestBrightskies/Pods-TestBrightskies.release.xcconfig"; sourceTree = "<group>"; };
-		6746CA1D5A6983E37E80A761 /* Pods_TestBrightskies_TestBrightskiesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBrightskies_TestBrightskiesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		974499156362F17E81616C78 /* Pods_TestBrightskiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBrightskiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A55AC2FA29A44173B9E8E2B6 /* Pods-TestBrightskies-TestBrightskiesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBrightskies-TestBrightskiesUITests.release.xcconfig"; path = "Target Support Files/Pods-TestBrightskies-TestBrightskiesUITests/Pods-TestBrightskies-TestBrightskiesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B27302A523945051ED1BE366 /* Pods-TestBrightskies-TestBrightskiesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBrightskies-TestBrightskiesUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestBrightskies-TestBrightskiesUITests/Pods-TestBrightskies-TestBrightskiesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5017CDE32EE06C089BA809B /* Pods-TestBrightskies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBrightskies.debug.xcconfig"; path = "Target Support Files/Pods-TestBrightskies/Pods-TestBrightskies.debug.xcconfig"; sourceTree = "<group>"; };
-		E68FC67C0EDA8DFAE70FD4AF /* Pods-TestBrightskiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBrightskiesTests.release.xcconfig"; path = "Target Support Files/Pods-TestBrightskiesTests/Pods-TestBrightskiesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F60F18C4260BFE690009E8C7 /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
 		F60F18C5260BFE690009E8C7 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
 		F60F18C6260BFE690009E8C7 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -160,7 +152,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6EF3B2FCF26A1D9193FC821 /* Pods_TestBrightskiesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +159,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DDB1456436413F0BD82791 /* Pods_TestBrightskies_TestBrightskiesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,8 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				09A982FCF93632D070B6EBDD /* Pods_TestBrightskies.framework */,
-				6746CA1D5A6983E37E80A761 /* Pods_TestBrightskies_TestBrightskiesUITests.framework */,
-				974499156362F17E81616C78 /* Pods_TestBrightskiesTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,10 +178,6 @@
 			children = (
 				D5017CDE32EE06C089BA809B /* Pods-TestBrightskies.debug.xcconfig */,
 				4B80254C42B0405874F19D59 /* Pods-TestBrightskies.release.xcconfig */,
-				B27302A523945051ED1BE366 /* Pods-TestBrightskies-TestBrightskiesUITests.debug.xcconfig */,
-				A55AC2FA29A44173B9E8E2B6 /* Pods-TestBrightskies-TestBrightskiesUITests.release.xcconfig */,
-				05D6B1AE13460A3823348837 /* Pods-TestBrightskiesTests.debug.xcconfig */,
-				E68FC67C0EDA8DFAE70FD4AF /* Pods-TestBrightskiesTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -424,7 +408,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F4361B260BB75600C2DF65 /* Build configuration list for PBXNativeTarget "TestBrightskiesTests" */;
 			buildPhases = (
-				54E692429796F41ED808B4AF /* [CP] Check Pods Manifest.lock */,
 				F6F43600260BB75600C2DF65 /* Sources */,
 				F6F43601260BB75600C2DF65 /* Frameworks */,
 				F6F43602260BB75600C2DF65 /* Resources */,
@@ -443,11 +426,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F4361E260BB75600C2DF65 /* Build configuration list for PBXNativeTarget "TestBrightskiesUITests" */;
 			buildPhases = (
-				9BD984A7EFC9C048DBBD4804 /* [CP] Check Pods Manifest.lock */,
 				F6F4360B260BB75600C2DF65 /* Sources */,
 				F6F4360C260BB75600C2DF65 /* Frameworks */,
 				F6F4360D260BB75600C2DF65 /* Resources */,
-				0A75B714A2736A2051968706 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -551,23 +532,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A75B714A2736A2051968706 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestBrightskies-TestBrightskiesUITests/Pods-TestBrightskies-TestBrightskiesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestBrightskies-TestBrightskiesUITests/Pods-TestBrightskies-TestBrightskiesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestBrightskies-TestBrightskiesUITests/Pods-TestBrightskies-TestBrightskiesUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1A20E22C2DE5D88EE0DFF0C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,50 +548,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TestBrightskies-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54E692429796F41ED808B4AF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestBrightskiesTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9BD984A7EFC9C048DBBD4804 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestBrightskies-TestBrightskiesUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -890,7 +810,6 @@
 		};
 		F6F4361C260BB75600C2DF65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05D6B1AE13460A3823348837 /* Pods-TestBrightskiesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -913,7 +832,6 @@
 		};
 		F6F4361D260BB75600C2DF65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68FC67C0EDA8DFAE70FD4AF /* Pods-TestBrightskiesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -936,7 +854,6 @@
 		};
 		F6F4361F260BB75600C2DF65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B27302A523945051ED1BE366 /* Pods-TestBrightskies-TestBrightskiesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -957,7 +874,6 @@
 		};
 		F6F43620260BB75600C2DF65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A55AC2FA29A44173B9E8E2B6 /* Pods-TestBrightskies-TestBrightskiesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
